@@ -1,0 +1,73 @@
+<!-- Justin Blackburn
+Jan 23, 2025
+Project 1a -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1a</title>
+    
+</head>
+<link href="../styles.css" rel="stylesheet">
+
+<body>
+    <div>
+        <h1>
+            Project 1a -- Test Calculation Function
+        </h1>
+    </div>
+    <script class="calculation">
+        //Windchill function with equation to calculate wind speed
+        //Passes temp & speed as parameters 
+        //Rounds the result and returns
+        function windChill(temp, speed) {
+            wc = 35.74 + (0.6125 * temp) - (35.75 * ((speed) ** (0.16))) + (0.4275 * (temp * ((speed) ** (0.16))));
+            wc = Math.round(wc)
+            return wc;
+        }
+
+        // Function inputs and print statement
+        //Temp and speed as prompts 
+        //Sends alert to show result
+        var temp = prompt("Enter the temperature in Farenheit", "0");
+        var speed = prompt("Enter the wind speed in miles per hour", "0");
+        var wc = windChill(temp, speed);
+        alert("The wind chill is: " + wc);
+    </script>
+    <script>
+        //Passer rating function that has 5 equations
+        //Takes attempts, completions, yards, touchdowns, and interceptions as parameters
+        //Sets results to a temp variable to compute final equation which gives the final passer rating
+        //rounding the passer rating
+        function passerRating(att, cmp, yds, td, int){
+            a = ((cmp / att) - 0.3) * 5;
+            b = ((yds / att) - 3 ) * 0.25;
+            c = (td / att) * 20;
+            d = 2.375 - ((int / att) * 25);
+            pr = ((a + b + c + d) / 6) * 100;
+            pr = Math.round(pr * 10) / 10;
+            return pr;
+        }
+        //Inputs for the data type parameters
+        var att = prompt("Enter the amount of passing attempts: ");
+        var cmp = prompt("Enter the amount of completed passes: ");
+        var yds = prompt("Enter the total amount of yards: ");
+        var td = prompt("Enter the amount of touchdowns: ");
+        var int = prompt("Enter the amount of interceptions: ");
+        //Calling the function and passing the parameters
+        var pr = passerRating(att, cmp, yds, td, int);
+        alert("The quarterbacks passer rating is: " + pr);
+
+    </script>
+    <div>
+        <p>
+            Windchill & QB Passer Rating Calculator
+        </p>
+    </div>
+    <div>
+        <p>
+            <a href="../index.html" target="_self">Back to Project Directory</a>
+        </p>
+    </div>
+</body>
+</html>
