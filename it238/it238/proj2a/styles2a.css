@@ -1,0 +1,52 @@
+/* Justin Blackburn
+   February 11, 2025
+   Project 2a */
+
+/*Set the body text to white*/
+body {
+    color: white;
+}
+/*aligning h3 to center*/
+h3{
+    text-align: center;
+}
+/*aligning the label to center*/
+.label{
+    text-align: center;
+}
+/*setting font size for the label*/
+label{
+    font-size: 20px;
+}
+/*moving the input boxes to the center of the page*/
+input{
+    margin: auto;
+    display: block;
+}
+/*moving the text box to the center of the page as well as changing its size*/
+textarea{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 150px;
+}
+/*moving the button to the center*/
+button{
+    margin: auto;
+    display: block;
+}
+/*moving the output region to center*/
+#output-2{
+    text-align: center;
+}
+/*changing the font for p to 15px*/
+p{
+    font-size: 15px;
+}
+/*setting image size*/
+.image{
+    width: 50%;
+    max-width: 600px;
+    height: 35%;
+    max-height: 350px;
+}

@@ -1,0 +1,74 @@
+/* Justin Blackburn
+   Jan 14, 2025
+   Project 0 */
+
+   @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Body tag to set background color */
+body {
+   background-color: #0D1B2A;
+}
+/*h1 tag to center, set font, font size, and color */
+h1 {
+   text-align: center;
+   font-family: "Noto Serif";
+   font-size: 45px;
+   color: #E0E1DD;
+}
+/*h2 tag to center, set font, font size, and color */
+h2 {
+   text-align: center;
+   font-family: "Noto Serif";
+   font-size: 30px;
+   color: #E0E1DD;
+}
+/* list class tag to set center, font, font size, and color */
+.list {
+   text-align: center;
+   font-family: "Noto Serif";
+   font-size: 20px;
+   color: #E0E1DD;
+}
+/*ul tag to set display of ul to inline block and align to the left */
+.ul {
+   display: inline-block;
+   text-align: left;
+}
+/*a tag to set no decoration and color */
+.list a {
+   text-decoration: none;
+   color: #E0E1DD;
+}
+/*a tag when visited to no decoration */
+.list a:visited {
+   text-decoration: none;
+}
+/*p tag for aligning items to center, font, size, color */
+p {
+   font-family: "Noto Serif";
+   font-size: 20px;
+   color: #E0E1DD;
+   text-align: center;
+}
+/*images tag to center image */
+.images {
+   align-items: center;
+}
+/*image tag to set display block and margins */
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.main-index-image {
+   width: 350px;
+   height: 300px;
+}
+
+.calculation {
+   color: white;
+}
+
+
+

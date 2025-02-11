@@ -1,0 +1,177 @@
+<!-- Justin Blackburn
+Jan 30, 2025
+Project 1b -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1b</title>
+    <script src="../proj1b/script.js"></script>
+    <link href="../styles.css" rel="stylesheet">
+    <link href="../proj1b/styles2.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <!--Main Header-->
+        <h1>
+            Project 1b -- Class and Final Grade Calculator
+        </h1>
+    </div>
+    <div>
+        <!--Link back to main page-->
+        <p>
+            <a href="../index.html" target="_self">Back to Project Directory</a>
+        </p>
+    </div>
+    <!--Adding image-->
+    <div class="images">
+        <img src="../proj1b/images/grades.jpg"  alt="ReportCard" class="oneb-index-image">
+    </div>
+    <br>
+    <!--Creating table-->
+    <div id="table-div">
+        <!--Table 1-->
+        <table id="table-1">
+            <tbody>
+                <tr>
+                    <!--Text top-->
+                    <td class="table-top">
+                        Assignment type
+                        <br>
+                        e.g Homework
+                    </td>
+                    <td class="table-top">
+                        Grade (%)
+                    </td>
+                    <td class="table-top">
+                        Weight
+                    </td>
+                <!--Input fields-->
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="assignment" placeholder="e.g. Exam 1">
+                    </td>
+                    <td>
+                        <input id="grade-1" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="weight-1" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="assignment" type="text" placeholder="e.g. Projects">
+                    </td>
+                    <td>
+                        <input id="grade-2" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="weight-2" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="assignment" type="text" placeholder="e.g. Attendance">
+                    </td>
+                    <td>
+                        <input id="grade-3" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="weight-3" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="assignment-" type="text">
+                    </td>
+                    <td>
+                        <input id="grade-4" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="weight-4" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="assignment" type="text">
+                    </td>
+                    <td>
+                        <input id="grade-5" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="weight-5" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="assignment" type="text">
+                    </td>
+                    <td>
+                        <input id="grade-6" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="weight-6" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <!--Button to calculate-->
+        <button type="button" id="button-1">
+            <span>Calculate</span>
+        </button>
+        <br>
+        <p id="finalP">
+            Final Grade
+        </p>
+        <!--input holder for result-->
+        <input type="text" id="output-1" placeholder="Final Grade">
+        <br>
+        <br>
+        <br>
+        <!--Table 2-->
+        <table id="table-2">
+            <tbody>
+                <!--Text top-->
+                <tr>
+                    <td class="table-top">
+                        Current Grade
+                    </td>
+                    <td class="table-top">
+                        Goal Grade
+                    </td>
+                    <td class="table-top">
+                        Final Exam Weight
+                    </td>
+                </tr>
+                <!--Input fields-->
+                <tr>
+                    <td>
+                        <input id="current-grade"type="number" id="assignment">
+                    </td>
+                    <td>
+                        <input id="goal-grade" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                    <td>
+                        <input id="final-weight" type="number" aria-valuemin="0" aria-valuemax="100">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <!--Button for function-->
+        <button type="button" id="button-2">
+            <span>Calculate</span>
+        </button>
+        <br>
+        <p id="final-grade">
+            Grade needed for final to get goal grade:
+        </p>
+        <!--Input for result-->
+        <input type="text" id="output-2" placeholder="Needed Grade">
+        <br>
+        <br>
+    </div>
+</body>
+</html>
