@@ -1,0 +1,35 @@
+.lotto{
+    display: flex;
+    justify-content: center;
+}
+
+.lottoRow{
+    width: 75%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.lottoColumn{
+    padding: 5px;
+}
+
+.lottoImg { background-color: #333333;
+    margin: 5px; 
+    height:100px;
+    width:100px; 
+}
+
+/*setting image size*/
+.imageMain{
+    width: 40%;
+    max-width: 600px;
+    height: 30%;
+    max-height: 350px;
+}
+
+/*moving the button to the center*/
+button{
+    margin: auto;
+    display: block;
+}
