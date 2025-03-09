@@ -1,0 +1,47 @@
+/*set li color to white */
+li{
+    color: white;
+}
+/* setting body font size to 18 and font family to noto serif*/
+body{
+    font-size: 18px;
+    font-family: "Noto Serif";
+    
+}
+/*setting p color to white */
+p{
+    color: white;
+}
+/*quiz class paddings to make center alignment on page and aligning to left within section */
+.quiz{
+    padding-left: 35%;
+    padding-right: 30%;
+    text-align: left;
+}
+/*chaning the display to inline and aligning to left for ol*/
+ol{
+    display: inline-block;
+    text-align: left;
+}
+/*moving to align with items in section*/
+button{
+    margin: auto;
+    display: inline;
+}
+/*moving submit button to center of section*/
+#submit{
+    margin: auto;
+    display: block;
+}
+/*setting size and placement for check and cross image */
+img{
+    display: inline;
+    width: 20px;
+}
+/*setting size and displayment for cubs logo */
+#cubImg{
+    display: block;
+    width: 20%;
+    max-width: 600px;
+}
+

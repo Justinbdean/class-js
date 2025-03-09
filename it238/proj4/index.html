@@ -1,25 +1,202 @@
+<!-- Justin Blackburn
+March 7, 2025
+Project 4 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Project 4</title>
+    <link href="../styles.css" rel="stylesheet">
+    <link href="../proj4/styles4.css" rel="stylesheet">
+    <script src="../proj4/quizData.js"></script>
+    <script src="../proj4/script.js"></script>
 </head>
-<link href="../styles.css" rel="stylesheet">
+
 <body>
     <div>
         <h1>
-            
+            Project 4 -- Online Quiz
         </h1>
     </div>
     <div>
-        <p>
-            
-        </p>
-    </div>
-    <div>
+        <!--Link back to main page-->
         <p>
             <a href="../index.html" target="_self">Back to Project Directory</a>
         </p>
     </div>
+
+    <h2>Trivia Quiz on the Chicago Cubs</h2>
+    <!--Image -->
+    <img id="cubImg" src="../proj4/images/Chicago_Cubs_logo.png">
+    <br>
+    <!--Creating image container -->
+    <div class="quiz">
+        <!--quiz list -->
+        <ol>
+            <li>
+                <!--span to hold question -->
+                <span id="q0">
+                </span>
+                <br>
+                <ol>
+                    <!--list item for choices -->
+                    <li type="A">
+                        <input type="radio" id="q0" name="answer" value="a">Bush Stadium
+                        <img id="img0a">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="q0" name="answer" value="b">Fenway Park
+                        <img id="img0b">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="q0" name="answer" value="c">Wrigley Field
+                        <img id="img0c">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="q0" name="answer" value="d">Rate Field
+                        <img id="img0d">
+                    </li>
+                </ol>
+            </li>
+        <br>
+        <!--button for hint -->
+        <button id="btn0">Hint?</button>
+        <!--p for hint display-->
+        <p id="hint0"></p>
+
+            <li>
+                <!--span to hold question -->
+                <span id="q1">
+                </span>
+                <br>
+                <ol>
+                    <!--list item for choices -->
+                    <li type="A">
+                        <input type="radio" id="" name="q2" value="a">2016
+                        <img id="img1a">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q2" value="b">2018
+                        <img id="img1b">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q2" value="c">2012
+                        <img id="img1c">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q2" value="d">2003
+                        <img id="img1d">
+                    </li>
+                </ol>
+            </li>
+        <br>
+        <!--button for hint -->
+        <button id="btn1">Hint?</button>
+        <!--p for hint display-->
+        <p id="hint1"></p>
+
+            <li>
+                <!--span to hold question -->
+                <span id="q2">
+                </span>
+                <br>
+                <ol>
+                    <!--list item for choices -->
+                    <li type="A">
+                        <input type="radio" id="" name="q3" value="a">1903
+                        <img id="img2a">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q3" value="b">1883
+                        <img id="img2b">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q3" value="c">1895
+                        <img id="img2c">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q3" value="d">1870
+                        <img id="img2d">
+                    </li>
+                </ol>
+            </li>
+        <br>
+        <!--button for hint -->
+        <button id="btn2">Hint?</button>
+        <!--p for hint display-->
+        <p id="hint2"></p>
+            <li>
+                <!--span to hold question -->
+                <span id="q3">
+                </span>
+                <br>
+                <ol>
+                    <!--list item for choices -->
+                    <li type="A">
+                        <input type="radio" id="" name="q4" value="a">Ron Santo
+                        <img id="img3a">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q4" value="b">Sammy Sosa
+                        <img id="img3b">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q4" value="c">Anthony Rizzo
+                        <img id="img3c">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q4" value="d">Billy Williams
+                        <img id="img3d">
+                    </li>
+                </ol>
+            </li>
+        <br>
+        <!--button for hint -->
+        <button id="btn3">Hint?</button>
+        <!--p for hint display-->
+        <p id="hint3"></p>
+            <li>
+                <!--span to hold question -->
+                <span id="q4">
+                </span>
+                <br>
+                <ol>
+                    <!--list item for choices -->
+                    <li type="A">
+                        <input type="radio" id="" name="q5" value="a">Pat Hughes
+                        <img id="img4a">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q5" value="b">Ron Coomer
+                        <img id="img4b">
+                    </li>
+                    <li type="A">
+                        <input type="radio" id="" name="q5" value="c">Harry Caray
+                        <img id="img4c">
+                    </li>
+                    <li type="A"type="A">
+                        <input type="radio" id="" name="q5" value="d">Milo Hamilton
+                        <img id="img4d">
+                    </li>
+                </ol>
+            </li>
+        <br>
+        <!--button for hint -->
+        <button id="btn4">Hint?</button>
+        <!--p for hint display-->
+        <p id="hint4"></p>
+        </ol>
+        <br>
+        <br>
+        <p>Ready to submit?</p>
+        <!--Input to submit quiz-->
+        <input id="submit" type="submit" value="Submit">
+        <!--p section to display not enough selection-->
+        <p id="errorMessage"></p>
+        <p id="totalScore"></p>
+    </div>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
